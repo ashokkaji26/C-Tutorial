@@ -7,6 +7,7 @@ Topics:-
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -30,9 +31,36 @@ Topics:-
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+*** Pointers:- 
+
+int numbers[] = {10, 20, 30, 40, 50};
+int *ptr = numbers; // What does this instruction means??
+*** Explaination 1 :- This instruction declares a pointer named ptr of type int* (pointer to integer) and initializes it to point to the first element of an array named numbers.
+
+Here's a breakdown of what it means:
+
+int *ptr; declares ptr as a pointer to an integer.
+= numbers; initializes ptr with the address of the first element of the array numbers. In C, when you use an array name without an index, it decays to a pointer to its first element.
+This allows you to use ptr to perform operations or access elements within the numbers array by using pointer arithmetic.
+
+*** Explaination 2 :- In C, "decay" refers to the process where an array name is automatically converted to a pointer to its first element in certain contexts. This means that when you use the name of an array, it often becomes a pointer to the first element of the array.
+
+For example, if you have an array int numbers[5];, using numbers in an expression is usually equivalent to &numbers[0], which is a pointer to the first element of the array. However, this decay does not occur in all situations, such as when the array is the operand of the sizeof operator or in certain initializations or assignments.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+*** Debugging:- 
+* As you learn more advance concepts of C, you will start making mistakes in your code. Sometimes these mistakes can be very hard to find.
+
+* This is a good time to learn the basics of Debugging - Debugging is finding and fixing errors in code.
+
+* What is a bug?
+--> A bug is an error that causes the program to generate an unexpected output that is different from the expected output or no output. What are some of the error codes you saw so far?
+
+1. CE - Compilation error / Syntax error
+2. RE - Run time error
+3. WA - Wrong answer / Logical error
+4. TLE - Time limit exceeded
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
