@@ -16,9 +16,13 @@ Topics:-
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 ** Loops can be initialized with int,char and float counter variables.
+
 ** we can initialize multiple variables in a loop.
+
 ** if we use break statement inside a nested loop, then it took us out of both inner and outer loop.
+
 ** Continue:- used to skip the current iteration.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 ** jis function se call jata h, usi function me returned value aata h.
