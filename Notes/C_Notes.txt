@@ -39,6 +39,7 @@ Topics:-
 
 int numbers[] = {10, 20, 30, 40, 50};
 int *ptr = numbers; // What does this instruction means??
+
 *** Explaination 1 :- This instruction declares a pointer named ptr of type int* (pointer to integer) and initializes it to point to the first element of an array named numbers.
 
 Here's a breakdown of what it means:
