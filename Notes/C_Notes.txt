@@ -44,8 +44,9 @@ int *ptr = numbers; // What does this instruction means??
 
 Here's a breakdown of what it means:
 
-int *ptr; declares ptr as a pointer to an integer.
-= numbers; initializes ptr with the address of the first element of the array numbers. In C, when you use an array name without an index, it decays to a pointer to its first element.
+int *ptr; declares ptr as a pointer to an integer = numbers;
+
+=> initializes ptr with the address of the first element of the array numbers. In C, when you use an array name without an index, it decays to a pointer to its first element.
 This allows you to use ptr to perform operations or access elements within the numbers array by using pointer arithmetic.
 
 *** Explaination 2 :- In C, "decay" refers to the process where an array name is automatically converted to a pointer to its first element in certain contexts. This means that when you use the name of an array, it often becomes a pointer to the first element of the array.
